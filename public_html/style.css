@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo';
+    font-size: 110%;
+}
+
+#chat {
+    padding-left: 2%;
+    background-color: rgb(240, 240, 240);
+    display: inline-block;
+    overflow-y: auto;
+    position: absolute;
+    height: 70%;
+    width: 98%;
+    bottom: 30%;
+}
+
+#input {
+    background-color: rgb(150, 175, 225);
+    top: 70%;
+    height: 30%;
+    width: 100%;
+    position: absolute;
+}
+
+#alias,
+#message,
+#send {
+    display: block;
+    padding: 0.5%;
+    margin: 2%;
+    width: 30%; /* Use a percentage-based width to prevent overflow */
+    border: none;
+    background-color: rgb(240, 240, 240);;
+}
+
+#send {
+    background-color: rgb(150, 100, 255);
+    color: rgb(240, 240, 240);;
+    cursor: pointer;
+    text-align: center;
+}
+
+#send:hover {
+    background-color: rgb(100, 75, 150);
+}
